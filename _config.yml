@@ -1,0 +1,19 @@
+title: Robbie Clutton
+description: Personal website of Robbie Clutton
+url: "https://robbieclutton.com"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
